@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    
+    "name": "GfG Camouflage",
+    "version": "1.0",
+    "description": "A camouflaged extension for GeeksforGeeks site",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+	"content_scripts": [{
+      "css": ["style.css"],
+      "js": ["content.js"],
+      "matches": ["https://www.geeksforgeeks.org/*"]
+    }]
+  }

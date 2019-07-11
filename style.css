@@ -1,0 +1,38 @@
+#main {
+	text-align: center;
+}
+
+#primary {
+	display: inline-block;
+	float: none;
+}
+
+#menu-top {
+	background-color: lightgray;
+	color: black;
+}
+
+.themonic-nav li a {
+	background-color: lightgray !important;
+	color: black !important;
+}
+
+.themonic-nav li a:hover { 
+  background-color: darkgray !important;
+}
+
+.themonic-nav li a img {
+	display : none !important;
+}
+
+a {
+	color: #330066 !important;
+}
+
+a:hover {
+	color: #990000 !important;
+}
+
+a:visited {
+	color: #FFCC66 !important;
+}
