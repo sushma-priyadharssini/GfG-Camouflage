@@ -8,9 +8,9 @@
     "background": {
       "scripts": ["background.js"]
     },
-	"content_scripts": [{
+    "content_scripts": [{
       "css": ["style.css"],
       "js": ["content.js"],
       "matches": ["https://www.geeksforgeeks.org/*"]
     }]
-  }
+}
